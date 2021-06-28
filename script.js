@@ -25,8 +25,8 @@ function compute()
 // create a string for result text
     var resultText='If you deposit <mark>'+ principal +'</mark>, <br\> ' +
         'at an interest rate of <mark>'+ rate +'% </mark> <br\>'+ 
-        'You will receive an amount of <mark>'+ rate +'</mark><br\>'+
-        'in the year <mark>'+ rate +'</mark><br\>';
+        'You will receive an amount of <mark>'+ interest +'</mark><br\>'+
+        'in the year <mark>'+ year +'</mark><br\>';
 // write result text to result element's HTML
         result.innerHTML=resultText;
 
