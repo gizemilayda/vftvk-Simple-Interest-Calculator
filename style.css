@@ -16,4 +16,5 @@ h1{color:grey;font-family:verdana}
 
 .input-title {
     width: 120px;
+    display: inline-block;
 }
