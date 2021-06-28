@@ -3,7 +3,7 @@ function compute()
     //gets principal
     var principal = document.getElementById("principal").value;
 
-    if(principal<0){
+    if(principal<=0){
         alert('enter a positive number');
         document.getElementById('principal').focus();
         return;
